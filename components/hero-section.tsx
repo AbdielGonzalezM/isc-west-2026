@@ -39,10 +39,22 @@ export default function HeroSection() {
                                     </Button>
                                 </div>
                             </div>
-                            <div className="lg:w-166 @max-lg:-translate-x-5 max-lg:size-120 max-lg:order-first max-lg:mx-auto max-lg:-mb-20 lg:absolute lg:inset-0 lg:-inset-y-20 lg:ml-auto lg:translate-x-28">
+                            <div id="mobile" className="relative left-1/2 block w-screen px-5 max-w-screen -translate-x-1/2 order-first mb-5 mt-10 md:hidden">
                                 <div className="z-1 absolute inset-0 opacity-80" />
                                 <Image
-                                    className="object-cover object-right lg:w-full sm:max-w-[50vw]"
+                                    className="mx-auto h-auto w-full max-w-full object-cover object-center"
+                                    src="/ISCWEST.png"
+                                    alt="Abstract Object"
+                                    height="1212"
+                                    width="671"
+                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                    loading='eager'
+                                />
+                            </div>
+                            <div className="hidden md:block lg:w-166 @max-lg:-translate-x-5 max-lg:size-120 max-lg:order-first max-lg:mx-auto max-lg:-mb-20 lg:absolute lg:inset-0 lg:-inset-y-20 lg:ml-auto lg:translate-x-28">
+                                <div className="z-1 absolute inset-0 opacity-80" />
+                                <Image
+                                    className="object-cover object-right lg:w-full"
                                     src="/ISCWEST.png"
                                     alt="Abstract Object"
                                     height="1212"
