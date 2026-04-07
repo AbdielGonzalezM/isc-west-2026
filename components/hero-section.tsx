@@ -42,7 +42,7 @@ export default function HeroSection() {
                             <div className="lg:w-166 @max-lg:-translate-x-5 max-lg:size-120 max-lg:order-first max-lg:mx-auto max-lg:-mb-20 lg:absolute lg:inset-0 lg:-inset-y-20 lg:ml-auto lg:translate-x-28">
                                 <div className="z-1 absolute inset-0 opacity-80" />
                                 <Image
-                                    className="object-cover object-right lg:w-full sm:max-w-[80%]"
+                                    className="object-cover object-right lg:w-full sm:max-w-[50vw]"
                                     src="/ISCWEST.png"
                                     alt="Abstract Object"
                                     height="1212"
